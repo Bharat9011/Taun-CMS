@@ -1,4 +1,4 @@
-# taun CMS
+# tanu CMS
 
 ## Admin DashBoard
 ![screencapture-localhost-44349-Admin-DashBoard-aspx-2024-01-30-07_29_03](https://github.com/Bharat9011/taun-CMS/assets/97335704/e5830dfd-e960-4b4d-a30e-923f0e1400c5)
