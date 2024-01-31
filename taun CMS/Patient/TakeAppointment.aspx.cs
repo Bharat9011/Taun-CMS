@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace taun_CMS.Patient
 {
-    public partial class TackeAppontment : System.Web.UI.Page
+    public partial class TakeAppointment : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

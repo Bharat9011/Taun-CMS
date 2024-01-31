@@ -11,7 +11,7 @@ namespace taun_CMS.Patient
 {
 
 
-    public partial class TackeAppontment
+    public partial class TakeAppointment
     {
     }
 }

@@ -138,7 +138,7 @@
     <Content Include="Patient\PatientFeedback.aspx" />
     <Content Include="Patient\PatientHome.aspx" />
     <Content Include="Patient\PatientNotification.aspx" />
-    <Content Include="Patient\TackeAppontment.aspx" />
+    <Content Include="Patient\TakeAppointment.aspx" />
     <Content Include="Patient\TreatmentHistory.aspx" />
     <Content Include="Patient\VIewDoctor.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -305,12 +305,12 @@
     <Compile Include="Patient\PatientNotification.aspx.designer.cs">
       <DependentUpon>PatientNotification.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Patient\TackeAppontment.aspx.cs">
-      <DependentUpon>TackeAppontment.aspx</DependentUpon>
+    <Compile Include="Patient\TakeAppointment.aspx.cs">
+      <DependentUpon>TakeAppointment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Patient\TackeAppontment.aspx.designer.cs">
-      <DependentUpon>TackeAppontment.aspx</DependentUpon>
+    <Compile Include="Patient\TakeAppointment.aspx.designer.cs">
+      <DependentUpon>TakeAppointment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Patient\TreatmentHistory.aspx.cs">
       <DependentUpon>TreatmentHistory.aspx</DependentUpon>
