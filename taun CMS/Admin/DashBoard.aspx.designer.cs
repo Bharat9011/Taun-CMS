@@ -15,33 +15,6 @@ namespace taun_CMS.Admin
     {
 
         /// <summary>
-        /// TotalPatients control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TotalPatients;
-
-        /// <summary>
-        /// Total_Doctors control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Total_Doctors;
-
-        /// <summary>
-        /// TotalIncome control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TotalIncome;
-
-        /// <summary>
         /// Appointment_view control.
         /// </summary>
         /// <remarks>

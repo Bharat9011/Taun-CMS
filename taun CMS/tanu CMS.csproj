@@ -80,6 +80,7 @@
     <Content Include="assets\css\form-elements.css" />
     <Content Include="assets\css\grid-view.css" />
     <Content Include="assets\css\patient-style.css" />
+    <Content Include="assets\css\schedule.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\Doctor.jpg" />
     <Content Include="assets\font-awesome\css\font-awesome.css" />
@@ -93,6 +94,7 @@
     <Content Include="assets\ico\favicon.png" />
     <Content Include="assets\img\backgrounds\1.jpg" />
     <Content Include="assets\img\backgrounds\PatientHome.jpg" />
+    <Content Include="assets\img\doctor.png" />
     <Content Include="assets\js\jquery-1.11.1.js" />
     <Content Include="assets\js\jquery-1.11.1.min.js" />
     <Content Include="assets\js\jquery.backstretch.js" />

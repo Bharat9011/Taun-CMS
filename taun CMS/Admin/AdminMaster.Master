@@ -26,6 +26,7 @@
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/schedule.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -47,11 +48,11 @@
                 }
             </style>
 
-            <nav class="navbar  bg-colo">
+            <nav class="navbar bg-colo">
                 <div class="container-fluid ps-1 pe-1">
-                    <a class="navbar-brand text-center text-white p-2 fs-1 ms-5" style="line-height: 40px; position: absolute; left: 0px;">Clinic</a>
+                    <a class="navbar-brand text-center text-white p-2 fs-1 ms-5" style="line-height: 40px; position: absolute; left: 0px;">Clinic Management System</a>
                     <div class="d-flex me-5" style="position: absolute; right: 0px;">
-                        <ul class="navbar-nav mb-2 mb-lg-0 d-inline">
+                        <ul class="navbar-nav d-inline">
                             <li class="nav-item p-2 fs-4 rounded">
                                 <a href="DashBoard.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-home" style="margin-right: 6px;"></span>Home</a>
                             </li>
@@ -71,6 +72,10 @@
                     </div>
                 </div>
             </nav>
+
+
+
+
 
             
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

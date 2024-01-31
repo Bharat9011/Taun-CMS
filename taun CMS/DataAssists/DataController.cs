@@ -13,13 +13,13 @@ namespace taun_CMS.DataAssists
 
         SqlConnection conn = new SqlConnection(connstring);
 
-        public (int,int) CheckUser(string email,string passwords)
+        public (string, int) CheckUser(string email, string passwords)
         {
 
-                conn.Open();
+            conn.Open();
 
-                int loginType = 0;
-            int id = 1;
+            string loginType = "none";
+            int id = 0;
 
             try
             {
@@ -32,23 +32,25 @@ namespace taun_CMS.DataAssists
                 {
                     if (reander.Read())
                     {
-                        loginType = int.Parse(reander[3].ToString().Trim());
+                        loginType = reander[3].ToString().Trim();
                         id = int.Parse(reander[0].ToString().Trim());
                     }
                 }
 
                 conn.Close();
 
-                return (loginType,id);
+                return (loginType, id);
 
-            } catch(Exception ex) {
-                return (1,1);
+            }
+            catch (Exception ex)
+            {
+                return (loginType, id);
             }
             finally
             {
                 conn.Close();
             }
-            
+
             return (loginType, id);
 
         }

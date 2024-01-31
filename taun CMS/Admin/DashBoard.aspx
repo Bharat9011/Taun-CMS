@@ -1,28 +1,66 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="DashBoard.aspx.cs" Inherits="taun_CMS.Admin.DashBoard" %>
+﻿<%@ Page Title="Admin DashBoard" Language="C#" MasterPageFile="~/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="DashBoard.aspx.cs" Inherits="taun_CMS.Admin.DashBoard" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1 style="font-family: 'Times New Roman', Times, serif; border-radius: 5px; text-decoration: underline; background-color: #CCCCCC"><strong style="margin: 37%">Clinic Stats</strong></h1>
-    <br />
-    <br />
+
+    <section class="schedule">
+        <div class="container">
+            <div class="schedule-inner">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 ">
+                        <!-- single-schedule -->
+                        <div class="single-schedule first">
+                            <div class="inner">
+                                <div class="single-content">
+                                    <h4>Total Number of Regstered Doctors:</h4>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <a href="#">LEARN MORE</a>
+                                        <p>12</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- single-schedule -->
+                        <div class="single-schedule middle">
+                            <div class="inner">
+                                <div class="single-content">
+                                    <h4>Total Registered Patients:</h4>
+                                    <div style="display: flex; justify-content: space-between; margin-top: 30px;">
+                                        
+                                        <a href="#">LEARN MORE</a>
+                                        <p>12</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <!-- single-schedule -->
+                        <div class="single-schedule last">
+                            <div class="inner">
+                                <div class="single-content">
+                                    <h4>Opening Hours</h4>
+                                    <div style="display: flex; justify-content: space-between; margin-top: 30px;">
+                                        
+                                        <a href="#">LEARN MORE</a>
+                                        <p>12</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div style="margin-left: 70px">
-
-        <h4><strong>Total Number of Regstered Doctors: </strong></h4>
-        <asp:Label ID="TotalPatients" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-        <br />
-        <br />
-
-        <h4><strong>Total Registered Patients: </strong></h4>
-        <asp:Label ID="Total_Doctors" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-        <br />
-        <br />
-
-        <h4><strong>Total Income: </strong></h4>
-        <asp:Label ID="TotalIncome" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
-        <br />
-        <br />
-
         <h3><strong style="margin: 5%">Current Appointments</strong></h3>
 
         <asp:GridView ID="Appointment_view" runat="server" CellPadding="4" ForeColor="Black" GridLines="Vertical" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
