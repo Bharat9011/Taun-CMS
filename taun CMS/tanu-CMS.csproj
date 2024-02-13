@@ -101,6 +101,7 @@
     <Content Include="assets\js\jquery.backstretch.min.js" />
     <Content Include="assets\js\placeholder.js" />
     <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\profile.png" />
     <Content Include="assets\Staff.jpg" />
     <Content Include="assets\staff2.jpg" />
     <Content Include="assets\staff3.jpg" />
