@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace taun_CMS.Doctor
+namespace taun_CMS.receptioninst
 {
 
 

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Doctor.master.cs" Inherits="taun_CMS.Doctor.Doctor" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Doctor.master.cs" Inherits="taun_CMS.receptioninst.Doctor" %>
 
 <!DOCTYPE html>
 
@@ -53,13 +53,13 @@
                                 <a href="DashBoard.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-home" style="margin-right: 6px;"></span>Home</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="AddStaff.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-list-alt" style="margin-right: 6px;"></span>Todays Appintments</a>
+                                <a href="PatientHistory.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-list-alt" style="margin-right: 6px;"></span>Todays Appintments</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="DoctorRegistrationForm.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-plus" style="margin-right: 6px;"></span>Pending Appintments</a>
+                                <a href="PendingAppointment.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-plus" style="margin-right: 6px;"></span>Pending Appintments</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="ManageClinic.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-list-alt" style="margin-right: 6px;"></span>Patient History</a>
+                                <a href="PatientHistory.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-list-alt" style="margin-right: 6px;"></span>Patient History</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="/LginPage.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-log-in" style="margin-right: 6px;"></span>Log Out</a>

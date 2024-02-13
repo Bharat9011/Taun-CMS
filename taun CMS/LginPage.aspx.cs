@@ -23,9 +23,9 @@ namespace taun_CMS
             if(type.Item1 == "Admin")
             {
                 Response.Redirect("~/Admin/DashBoard.aspx");
-            } else if(type.Item1 == "Doctor")
+            } else if(type.Item1 == "receptionist")
             {
-                Response.Write("~/Doctor/DoctorHome.aspx");
+                Response.Redirect("~/receptionist/DoctorHome.aspx");
             } else if (type.Item1 == "Patient")
             {
                 Response.Redirect("~/Patient/PatientHome.aspx");

@@ -125,12 +125,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="Doctor\bill.aspx" />
-    <Content Include="Doctor\DoctorHome.aspx" />
-    <Content Include="Doctor\HistoryUpdate.aspx" />
-    <Content Include="Doctor\PatientHistory.aspx" />
-    <Content Include="Doctor\PendingAppointment.aspx" />
-    <Content Include="Doctor\PreviousHistory.aspx" />
+    <Content Include="receptionist\bill.aspx" />
+    <Content Include="receptionist\DoctorHome.aspx" />
+    <Content Include="receptionist\HistoryUpdate.aspx" />
+    <Content Include="receptionist\PatientHistory.aspx" />
+    <Content Include="receptionist\PendingAppointment.aspx" />
+    <Content Include="receptionist\PreviousHistory.aspx" />
     <Content Include="LginPage.aspx" />
     <Content Include="Patient\AppointmentRequest.aspx" />
     <Content Include="Patient\AppointmentTaker.aspx" />
@@ -188,53 +188,53 @@
       <DependentUpon>ManageClinic.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataAssists\DataController.cs" />
-    <Compile Include="Doctor\bill.aspx.cs">
+    <Compile Include="receptionist\bill.aspx.cs">
       <DependentUpon>bill.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\bill.aspx.designer.cs">
+    <Compile Include="receptionist\bill.aspx.designer.cs">
       <DependentUpon>bill.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\Doctor.Master.cs">
+    <Compile Include="receptionist\Doctor.Master.cs">
       <DependentUpon>Doctor.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\Doctor.Master.designer.cs">
+    <Compile Include="receptionist\Doctor.Master.designer.cs">
       <DependentUpon>Doctor.Master</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\DoctorHome.aspx.cs">
+    <Compile Include="receptionist\DoctorHome.aspx.cs">
       <DependentUpon>DoctorHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\DoctorHome.aspx.designer.cs">
+    <Compile Include="receptionist\DoctorHome.aspx.designer.cs">
       <DependentUpon>DoctorHome.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\HistoryUpdate.aspx.cs">
+    <Compile Include="receptionist\HistoryUpdate.aspx.cs">
       <DependentUpon>HistoryUpdate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\HistoryUpdate.aspx.designer.cs">
+    <Compile Include="receptionist\HistoryUpdate.aspx.designer.cs">
       <DependentUpon>HistoryUpdate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\PatientHistory.aspx.cs">
+    <Compile Include="receptionist\PatientHistory.aspx.cs">
       <DependentUpon>PatientHistory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\PatientHistory.aspx.designer.cs">
+    <Compile Include="receptionist\PatientHistory.aspx.designer.cs">
       <DependentUpon>PatientHistory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\PendingAppointment.aspx.cs">
+    <Compile Include="receptionist\PendingAppointment.aspx.cs">
       <DependentUpon>PendingAppointment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\PendingAppointment.aspx.designer.cs">
+    <Compile Include="receptionist\PendingAppointment.aspx.designer.cs">
       <DependentUpon>PendingAppointment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctor\PreviousHistory.aspx.cs">
+    <Compile Include="receptionist\PreviousHistory.aspx.cs">
       <DependentUpon>PreviousHistory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctor\PreviousHistory.aspx.designer.cs">
+    <Compile Include="receptionist\PreviousHistory.aspx.designer.cs">
       <DependentUpon>PreviousHistory.aspx</DependentUpon>
     </Compile>
     <Compile Include="LginPage.aspx.cs">
@@ -391,7 +391,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Doctor\Doctor.Master" />
+    <Content Include="receptionist\Doctor.Master" />
     <None Include="packages.config" />
     <Content Include="Patient\PatientMaster.Master" />
     <None Include="Web.Debug.config">

@@ -38,19 +38,20 @@
         <div>
 
             <style>
-                .hovereffect:hover{
+                .hovereffect:hover {
                     color: white !important;
                     background: black;
                     border-radius: 10px;
                 }
-                .bg-colo{
+
+                .bg-colo {
                     background-color: #4c4f51;
                 }
             </style>
 
             <nav class="navbar bg-colo">
                 <div class="container-fluid ps-1 pe-1">
-                    <a class="navbar-brand text-center text-white p-2 fs-1 ms-5" style="line-height: 40px; position: absolute; left: 0px;">Clinic Management System</a>
+                    <a class="navbar-brand text-center text-white p-2 fs-1 ms-5" style="line-height: 40px; position: absolute; left: 0px;">VASUDHA HEALTH CLINIC</a>
                     <div class="d-flex me-5" style="position: absolute; right: 0px;">
                         <ul class="navbar-nav d-inline">
                             <li class="nav-item p-2 fs-4 rounded">
@@ -73,11 +74,6 @@
                 </div>
             </nav>
 
-
-
-
-
-            
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
@@ -86,9 +82,9 @@
 
             <div class="footer-left">
 
-                <h3>MedicX<span>4</span></h3>
-
-                <p class="footer-company-name">MedicX4 Health Care &copy; 2017</p>
+                <h3>VASUDHA HEALTH
+                    <br />
+                    CLINIC</h3>
             </div>
 
 
@@ -96,12 +92,13 @@
 
                 <div>
                     <i class="fa fa-map-marker"></i>
-                    <p><span>Milaad St Block B</span> Faisal Town, Lahore</p>
+                    <p><span>Opposit to sayali Children Hospital,</span> Main Road, Kamptee</p>
+
                 </div>
 
                 <div>
                     <i class="fa fa-phone"></i>
-                    <p>0322 - 7561001</p>
+                    <p>+91 9067979124</p>
                 </div>
 
                 <div>

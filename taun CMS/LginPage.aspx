@@ -39,18 +39,18 @@
             <div>
 
                 <div class="top-content">
-                    <div class="inner-bg">
+                    <div style="margin-top:20px;">
                         <div class="container text-center">
 
                             <div class="row">
-                                <div class="col-sm-15 col-sm-offset-2 text">
+                                <div class="col-sm-10 col-sm-offset-1 text">
 
-                                    <h1><strong style="font-weight: 500;">MedicX 4 Health Care</strong> Login &amp; Registration Form</h1>
+                                    <h1><strong style="font-weight: 500;">VASUDHA HEALTH CLINIC</strong> Login Form</h1>
 
                                     <div class="description">
-                                        <p>
-                                            This is a free <strong>"Login and Registration form"</strong> for Health Care Clinic.
-                                        </p>
+                                        <p><strong>Family Physician</strong></p>
+                                        <p><strong>Dr. Shiwani Ingole - Wade</strong></p>
+                                        <p><strong>B.A.M.S., M.D.,P.G.C.C.p.</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                         <div class="form-top">
                                             <div class="form-top-left">
 
-                                                <h3>Login to our Website</h3>
+                                                <h3>Login to Website</h3>
                                                 <p>Enter Email and Password to log in:</p>
 
                                             </div>
@@ -97,38 +97,12 @@
                                         </div>
 
                                     </div>
-
-                                    <div class="social-login">
-                                        <h3>...or login with:</h3>
-                                        <div class="social-login-buttons">
-                                            <a class="btn btn-link-1 btn-link-1-facebook" href="#">
-                                                <i class="fa fa-facebook"></i>Facebook
-                                            </a>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <!-- Footer -->
-            <footer>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <div class="footer-border"></div>
-                            <p>If you have any query, please feel free to contact us. <i class="fa fa-smile-o"></i></p>
-                        </div>
-
-                    </div>
-                </div>
-            </footer>
-
         </div>
     </form>
 

@@ -38,10 +38,7 @@
 
     <div class="container myclass">
 
-
         <div class="row">
-
-
 
             <div class="col-sm-2"></div>
 
@@ -60,23 +57,15 @@
                     </div>
                     <div class="form-bottom">
 
-
-
-
                         <!-- sign up form start honay laga hai :)-->
 
-
                         <div class="form-group">
-
-
 
                             <asp:RequiredFieldValidator ID="NameValidator" runat="server" ErrorMessage="* Required" Display="dynamic" Font-Bold="False" SetFocusOnError="True" ControlToValidate="Name" ForeColor="Red"></asp:RequiredFieldValidator>
                             <asp:TextBox ID="Name" runat="server" type="text" class="form-username form-control" placeholder="Name"></asp:TextBox>
 
-
                         </div>
                         <div class="form-group">
-
 
                             <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="BirthDate" ID="BDateReqiured" Display="Dynamic" Font-Bold="False" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
@@ -89,16 +78,10 @@
                             <asp:RegularExpressionValidator ID="EmailformatValidator" runat="server" ErrorMessage="Incorrect Email Format" Display="Dynamic" ControlToValidate="Email" SetFocusOnError="True" ValidationExpression="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|&quot;(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot;)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" ForeColor="Red"></asp:RegularExpressionValidator>
 
 
-
-
                             <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="Email" ID="RequiredFieldValidator3" Display="Dynamic" Font-Bold="False" ForeColor="Red"></asp:RequiredFieldValidator>
 
 
                             <asp:TextBox ID="Email" runat="server" type="text" class="form-username form-control" placeholder="Email : person@example.com"></asp:TextBox>
-
-
-
-
 
                         </div>
 

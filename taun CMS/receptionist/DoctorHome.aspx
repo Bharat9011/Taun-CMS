@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Doctor/Doctor.Master" AutoEventWireup="true" CodeBehind="DoctorHome.aspx.cs" Inherits="taun_CMS.Doctor.DoctorHome" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/receptioninst/Doctor.Master" AutoEventWireup="true" CodeBehind="DoctorHome.aspx.cs" Inherits="taun_CMS.receptioninst.DoctorHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -12,7 +12,7 @@
             <br />
         </h3>
         <h4>Phone:     
-            <asp:Label ID="Label2" runat="server" Font-Bold="true" Font-Size="Medium" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address:
+            <asp:Label ID="Label2" runat="server" Font-Bold="true" Font-Size="Medium" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address:
             <asp:Label ID="Label3" runat="server" Font-Bold="true" Font-Size="Medium" />
         </h4>
         <br />
