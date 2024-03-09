@@ -15,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="footer, address, phone, icons" />
 
@@ -55,22 +56,16 @@
                                 <a href="PatientHome.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-home" style="margin-right: 6px;"></span>Home</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="PatientNotification.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-flag" style="margin-right: 6px;"></span>Notification</a>
+                                <a href="TakeAppointment.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-plus" style="margin-right: 6px;"></span>Take Appointment</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="CurrentAppintment.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-search" style="margin-right: 6px;"></span>Current Appointment</a>
-                            </li>
-                            <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="TakeAppointment.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-plus" style="margin-right: 6px;"></span>Take Appointment</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="BillsHistory.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-usd" style="margin-right: 6px;"></span>Bill History</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="TreatmentHistory.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-info-sign" style="margin-right: 6px;"></span>Treatment History</a>
-                            </li>
-                            <li class="nav-item p-2 fs-4 rounded ">
-                                <a href="PatientFeedback.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-thumbs-up" style="margin-right: 6px;"></span>FeedBack</a>
                             </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="/LginPage.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-log-in" style="margin-right: 6px;"></span>Log Out</a>
@@ -81,52 +76,54 @@
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <footer class="footer-distributed">
+        <footer class="footer-distributed">
 
-                <div class="footer-left">
+            <div class="footer-left">
 
-                    <h3>MedicX<span>4</span></h3>
+                <h3>VASUDHA HEALTH
+                    <br />
+                    CLINIC</h3>
+            </div>
 
-                    <p class="footer-company-name">MedicX4 Health Care &copy; 2017</p>
-                </div>
 
+            <div class="footer-center">
 
-                <div class="footer-center">
-
-                    <div>
-                        <i class="fa fa-map-marker"></i>
-                        <p><span>Milaad St Block B</span> Faisal Town, Lahore</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p>0322 - 7561001</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-envelope"></i>
-                        <p><a href="mailto:support@medicx4.com">support@medicx4.com</a></p>
-                    </div>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Opposit to sayali Children Hospital,</span> Main Road, Kamptee</p>
 
                 </div>
 
-                <div class="footer-right">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+91 9067979124</p>
+                </div>
 
-                    <p class="footer-company-about">
-                        <span>About the company</span>
-                        Our mission is to provide quality health services to all in a comfortable and cozy environment.
-The clinic primarily offers consultations and is not equipped to take emergencies.
-                    </p>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:vasudhahealthclinic@gmail.com">vasudhahealthclinic@gmail.com</a></p>
+                </div>
 
-                    <div class="footer-icons">
+            </div>
 
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+            <div class="footer-right">
 
-                    </div>
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    Our mission is to provide quality health services to all in a comfortable and cozy environment.
+             The clinic primarily offers consultations and is not equipped to take emergencies.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
 
                 </div>
 
-            </footer>
+            </div>
+
+        </footer>
+
         </div>
     </form>
 </body>

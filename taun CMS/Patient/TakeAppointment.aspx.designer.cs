@@ -13,23 +13,5 @@ namespace taun_CMS.Patient
 
     public partial class TakeAppointment
     {
-
-        /// <summary>
-        /// TDept control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TDept;
-
-        /// <summary>
-        /// TDeptGrid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView TDeptGrid;
     }
 }
