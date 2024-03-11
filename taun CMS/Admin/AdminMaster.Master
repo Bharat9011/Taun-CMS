@@ -63,6 +63,9 @@
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="DoctorRegistrationForm.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-plus" style="margin-right: 6px;"></span>Add Doctor</a>
                             </li>
+                            <li class="nav-item p-2 fs-4 rounded">
+                                <a href="CreateDepartment.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-home"></span>Create Department</a>
+                            </li>
                             <li class="nav-item p-2 fs-4 rounded ">
                                 <a href="ManageClinic.aspx" class="text-white hovereffect ps-2 pe-2"><span class="glyphicon glyphicon-cog" style="margin-right: 6px;"></span>Manage Clinic</a>
                             </li>

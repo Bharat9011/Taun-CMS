@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Web;
 
 namespace taun_CMS.DataAssists
@@ -11,48 +12,39 @@ namespace taun_CMS.DataAssists
 
         public static readonly string connstring = System.Configuration.ConfigurationManager.ConnectionStrings["connectionLink"].ConnectionString;
 
-        SqlConnection conn = new SqlConnection(connstring);
+        SqlConnection conn;
+        SqlCommand SqlCommand;
+        SqlDataReader reader;
+        public DataController()
+        {
+            conn = new SqlConnection(connstring);
+            conn.Open();
+            SqlCommand = conn.CreateCommand();
+        }
 
         public (string, int) CheckUser(string email, string passwords)
         {
-
-            conn.Open();
-
             string loginType = "none";
             int id = 0;
 
-            try
+            SqlCommand.CommandText = "select LoginID,Password,Email,Type from LoginTable where Password='" + passwords + "' and Email='" + email + "'";
+            reader = SqlCommand.ExecuteReader();
+            while (reader.Read())
             {
-
-                SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "select LoginID,Password,Email,Type from LoginTable where Password='" + passwords + "' and Email='" + email + "'";
-
-                using (SqlDataReader reander = cmd.ExecuteReader())
-                {
-                    if (reander.Read())
-                    {
-                        loginType = reander[3].ToString().Trim();
-                        id = int.Parse(reander[0].ToString().Trim());
-                    }
-                }
-
-                conn.Close();
-
-                return (loginType, id);
-
+                loginType = reader[3].ToString().Trim();
+                id = int.Parse(reader[0].ToString().Trim());
             }
-            catch (Exception ex)
-            {
-                return (loginType, id);
-            }
-            finally
-            {
-                conn.Close();
-            }
+            reader.Close();
 
             return (loginType, id);
 
+        }
+
+        public void RunSQL(string sql)
+        {
+            SqlCommand sqlCommand = conn.CreateCommand();
+            sqlCommand.CommandText = sql;
+            sqlCommand.ExecuteNonQuery();
         }
 
     }

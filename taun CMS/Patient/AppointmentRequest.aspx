@@ -8,9 +8,7 @@
     <br />
     <br />
     <h3><strong>Click on this button to send an appointment request to the Doctor</strong> </h3>
-
-    <asp:Button runat="server" OnClick="sendARequest" Text="Send Request" Font-Bold="true" />
-
+  
     <br />
     <br />
     <asp:Label ID="Message" runat="server"></asp:Label>

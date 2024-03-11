@@ -70,16 +70,14 @@
                             <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="BirthDate" ID="BDateReqiured" Display="Dynamic" Font-Bold="False" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
                             <asp:RegularExpressionValidator ID="BirthDateValidator" runat="server" ErrorMessage="Birth Date Format Not Correct" ControlToValidate="BirthDate" Display="Dynamic" ValidationExpression="((?:0[1-9])|(?:1[0-2]))\/((?:0[0-9])|(?:[1-2][0-9])|(?:3[0-1]))\/(\d{4})" ForeColor="Red" SetFocusOnError="True"></asp:RegularExpressionValidator>
-                            <asp:TextBox ID="BirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birht Date (mm/dd/yyyy)"></asp:TextBox>
+                            <asp:TextBox ID="BirthDate" runat="server" type="date" class="form-control" placeholder="Birht Date (mm/dd/yyyy)"></asp:TextBox>
 
                         </div>
                         <div class="form-group">
 
                             <asp:RegularExpressionValidator ID="EmailformatValidator" runat="server" ErrorMessage="Incorrect Email Format" Display="Dynamic" ControlToValidate="Email" SetFocusOnError="True" ValidationExpression="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|&quot;(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot;)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" ForeColor="Red"></asp:RegularExpressionValidator>
 
-
                             <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="Email" ID="RequiredFieldValidator3" Display="Dynamic" Font-Bold="False" ForeColor="Red"></asp:RequiredFieldValidator>
-
 
                             <asp:TextBox ID="Email" runat="server" type="text" class="form-username form-control" placeholder="Email : person@example.com"></asp:TextBox>
 
@@ -92,8 +90,6 @@
 
                             <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Passwords Do not Match " ControlToValidate="Password" ControlToCompare="cPassword" Display="Dynamic" ForeColor="Red"></asp:CompareValidator>
 
-
-
                             <asp:TextBox ID="Password" runat="server" type="password" class="form-username form-control" placeholder="Enter New Password"></asp:TextBox>
 
                         </div>
@@ -101,7 +97,6 @@
 
 
                         <div class="form-group">
-
 
                             <asp:TextBox ID="cPassword" runat="server" type="password" class="form-username form-control" placeholder="Confirm Password"></asp:TextBox>
 
@@ -169,7 +164,7 @@
 
                         </div>
 
-                        <asp:Button Text="Add" runat="server" type="submit" class="btn btn-primary"></asp:Button>
+                        <asp:Button Text="Add" runat="server" ID="btn_Submite" type="submit" class="btn btn-primary" OnClick="btn_Submite_Click"></asp:Button>
                     </div>
                 </div>
 
